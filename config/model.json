@@ -1,0 +1,50 @@
+{
+  "model_version": "V2.4.3",
+  "created": "2026-11-07",
+  "disclaimer": "目标市值锚与情景概率为旧基准/暂定参数，未经最新行情与逐股研究复核；定性评分为板块级占位值，须以逐股研究覆盖。",
+  "weights": {
+    "return": 25,
+    "odds": 25,
+    "option": 17,
+    "ai": 6,
+    "earnings": 11,
+    "catalyst": 7,
+    "certainty": 9,
+    "risk_max": 20,
+    "convexity_max": 2
+  },
+  "probabilities": {
+    "bear": 0.25,
+    "base": 0.5,
+    "bull": 0.25
+  },
+  "return_curve": {
+    "zero_at_pct": -60,
+    "full_at_pct": 120
+  },
+  "odds_curve": {
+    "full_ratio": 2.0,
+    "tail_penalty_bear_pct": -60,
+    "tail_penalty_factor": 0.8
+  },
+  "earnings_curve": {
+    "profit_yoy_full_pct": 50,
+    "revenue_yoy_full_pct": 30
+  },
+  "certainty": {
+    "profit_full_yi": 10,
+    "gross_margin_full_pct": 40
+  },
+  "risk": {
+    "pe_high": 60,
+    "pe_mid": 40,
+    "pe_high_deduction": 6,
+    "pe_mid_deduction": 3,
+    "bear_tail_deduction": 5,
+    "negative_base_deduction": 8,
+    "loss_deduction": 6
+  },
+  "reasonable_pe_default": 25,
+  "bridge_threshold_pct": 40,
+  "quote_half_life_days": 3
+}

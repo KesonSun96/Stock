@@ -1,0 +1,11 @@
+# 每日生成的行情与财报快照（可由 scripts 重新抓取）
+data/quotes/
+data/financials/
+
+# 每日排名输出（可由 scripts/run-daily.ps1 重新生成）
+output/
+
+# 编辑器与系统文件
+.vscode/
+Thumbs.db
+Desktop.ini
